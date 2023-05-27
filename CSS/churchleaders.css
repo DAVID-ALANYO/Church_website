@@ -1,0 +1,515 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+	box-sizing:border;
+}
+body{
+	 font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #e8e2e2;
+    background-repeat: repeat;
+	background-size: contain;
+}
+
+.fixed{
+    position: fixed;
+}
+.lefts{
+background-color: lightsteelblue;
+}
+/*/......slider and image slide show........../*/}
+/* NEW SLIDER*/
+
+
+/* NEW SLIDER*/
+
+/*......working with the nav-bar and social icons*/
+/*......working with the nav-bar and social icons*/
+/*......working with the nav-bar and social icons*/
+.social{
+  background-color:red;
+	width: 100%;
+    border-radius: 5px;
+    margin-right: 1px;
+    height: 10px;
+ 
+}
+
+.social li{
+    display: inline-block;
+    padding: 0.2px;
+    margin: 0.5px;
+/*    object-position: center;*/
+	height:20px;
+	
+    
+}
+
+.social img
+{
+    margin-top: -0px;
+    padding: 5px;
+	border-right-color:currentColor;
+	border-radius: 20px;
+	margin:1px;      
+}
+
+.social ul{
+    border-image-outset:10px;
+    text-align: right;
+    margin-right: 2px;
+}
+.social ul li:hover{
+  border-color: gainsboro;
+/*   border-top-style: groove; */
+    transform: scale(1.3);
+    
+}
+
+
+
+
+/*..............working with the nav*/
+/*..............working with the nav*/
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height:auto;
+	background-color:gainsboro;
+    
+}
+.fixed-nav-bar-give {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height:auto;
+/*  background-color: #00a087;*/
+  background-color:gainsboro;
+    
+}
+
+.show, .hide {
+  display: none;
+  padding-left: 15px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center left;
+  color: #dde1e2;
+}
+
+
+.show, .hide {  
+    position: absolute;
+    top: 0;
+    right: 15px;
+  }
+
+
+
+/*..............working with the nav*/
+/*.............WORKING WITH THE NAV BAR.......................*/
+
+
+.menu-bar
+		   {
+			background: rgb(69,73,209);
+background: linear-gradient(90deg, rgba(69,73,209,1) 2%, rgba(5,161,193,1) 47%, rgba(21,90,162,1) 91%);
+		   }
+		   .menu-bar ul{
+			   display: inline-flex;
+			   list-style: none;
+/*			   color: white;*/
+		   }
+		   .menu-bar ul li  {
+			   width: 100%px;
+			   margin: 15px;
+			   padding:15px;
+			   
+		   }
+		   .menu-bar ul li a{
+			   text-decoration: none;
+			   color: white;
+			   font-size: 13px;
+			  
+		   }
+		   .active1, .menu-bar ul li:hover
+       {
+			   
+			   background-color: rgba(23,34,0,0.2);
+/*			   border-radius: 20px;*/
+		   border-color: gainsboro;
+/*   border-top-style: groove; */
+        transform: scale(1);
+    
+		   }
+		   
+/*		   dropdown*/
+		   .sub-menu{
+			   display: none;
+			   width: auto;
+			   background-color: whitesmoke;
+		   }
+		   .menu-bar ul li:hover .sub-menu{
+			   display: block;
+			   position: absolute;
+			   background-color: white;
+			   margin-top: 17px;
+			   margin-left:-15px;
+/*			   align-items: left;*/
+			   color: black;
+		   }
+.menu-bar ul li:hover .sub-menu ul{
+			   display: block;
+			   margin: -12px;
+	           padding:0;
+
+		   }
+          .sub-menu ul li a{
+			  color: black;
+			  padding-left:0;
+			  font-size: 17px;
+			  font-family: cursive;
+			  }
+		   .menu-bar ul li:hover .sub-menu ul li
+		     {
+			   width: 150px;
+			   padding: 6px;
+			   border-bottom: 1px dotted #DAA520;
+			   background: transparent;
+			   border-radius: 0;
+			   text-align:left;
+				
+			   
+		   }
+		   .menu-bar ul li:hover .sub-menu ul li:last-child{
+			   border-bottom: none;
+		   }
+		   .menu-bar ul li:hover .sub-menu ul li a:hover{
+			   color: gold;
+		   }
+
+
+/*looooooogoooooo*/
+.logo{
+     background-color: rgba(102,255,0,0.);
+    min-width: auto;
+    margin: 0;
+    padding: 0;
+
+}
+.logo img 
+{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    padding-left: 6px;
+    color: black;
+    column-width: 443px;
+    overflow: hidden;
+    background-color: rgba(102,255,0,0.);
+}
+p .logo p{
+  padding:20px;
+/*    cursor: progress;*/
+    user-select: none;
+    margin: 3px;
+    padding-right:4px;
+    border-bottom-width: 200px;
+    border-radius:30px ;
+/*    column-width: 443px;*/
+    font-size:12px;
+    overflow: hidden;
+    background-color: rgba(0,0,51,0.8);
+   
+    
+   
+}
+.logo p a{
+    text-decoration: none;
+    color: white;
+}
+/*
+.logo p:hover{
+    color: greenyellow;
+     transform: scaleY(1.1)
+    
+}
+*/
+.logo img:hover{
+    color: deeppink;
+     transform: scalex(1.1);
+    
+}
+
+/*working with the grids*/
+/* ***********************************Slideshow container ...............*/
+
+.slider {
+	width: 1220px;
+	height: 480px;
+	background-color: lawngreen;
+	padding-top: 129px;
+	margin-top: 10px;
+	
+}
+.slider img{
+	width: 1220px;
+	height: 480px
+}
+
+/*<!--    ..............FOOTER FOOTER INFORMATION...................    -->*/
+footer{
+	width:100%;
+	height: 300px;
+	background-color:black;
+	
+	
+}
+#width
+{
+	width: 1220px;
+	height: 160px;
+	background-color: white;
+	display: inline-flex;
+	margin-left:64px;
+	margin-top: 20px;
+	border-bottom-style: double;
+	border-bottom-color: black;
+	border-bottom-width: thick;
+	border-top-color: black;
+	border-top-style: double;
+
+}
+.left
+{
+	text-align: left;
+	color: greenyellow;color:
+	font-family: serif;
+	font-size-adjust: auto;
+	font-size: 20px;
+	user-select: none;	
+}
+.left1 img{
+	margin-right: 7px;
+	width: 20px;
+	height:20px
+}
+.left1{
+	text-align: center;
+	color: greenyellow;
+	font-family: serif;
+	font-size-adjust: auto;
+	font-size: 20px
+}
+.footerbox{
+/*	background-color: red;*/
+	width: 270px;
+	text-align: left;
+	padding: 10px;
+	margin:7px;
+	padding-left: 30px;
+	color: gray;
+	font-family: serif;
+}
+.footerbox p
+{
+	font-size:16px;
+	cursor: pointer;
+	user-select: none;
+}
+.box2{
+    background-color: white;
+	width: 270px;
+	text-align: left;
+	padding: 10px;
+	margin:5px;
+	color: black;
+	font-family: sans-serif;
+	display: inline-block;
+		
+}
+.box2 ul li 
+{
+	display: inline-flex;
+	margin-left: 0x;
+	padding: 0;
+	text-align: left;
+	padding:3.3px 	
+}
+
+box2 ul li img{
+	width: 15px;
+	height: auto;
+}
+
+.footerbox,.box2 {
+	float: left;
+	clear: left;
+	
+}
+
+	
+/*...............END INFOR..........*/
+.developer
+{
+	top: 50px;
+	background-color: black;
+	height: 120px;
+	width: 100%;
+	position: relative;
+	border-bottom: 10
+}
+.developer p{
+	color: gold
+}
+.footer{
+	position: absolute;
+	top:30%;
+	left: auto
+	text-align: center;
+	width: 100%;
+}
+.footer p{
+	color: gold;
+}
+.developer span
+{
+padding-left: 34%;
+color: white;
+}
+.developer span a
+{
+color: white;
+	margin: 
+}
+.developer span a{
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 0;
+	color: greenyellow;
+	text-decoration: none;
+}
+.developer span a:hover
+{
+	color: white;
+	border-radius: 50px;
+}
+.img
+{
+width: 130px;
+height: 80px;
+}
+/*.............FOOTER DEV INFORMATION.....................*/
+
+/*#######################GIVE TAB###################################*/
+/*##################GIVE NAV BAR#######################*/
+.fixed-nav-bar-give {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height:auto;
+/*  background-color: #00a087;*/
+  background-color:black;
+    
+}
+.menu-bar
+		   {
+			   background-color: rgba(0,235,92,0.5);
+			   text-align: center;
+			  
+		   }
+body.givemain{
+	background-color: hotpink;
+
+}
+.payment{
+	position: relative;
+	text-align: center;
+	height: 75%;
+	padding-top: 120px;
+	background-color: black;
+	background-image: url(images/give/give.jpg);
+	background-position: center;
+	background-size: cover;
+	background-origin: content-box;
+	image-resolution: snap;
+
+	
+}
+.pay{
+	width: 45%;
+	position: relative;
+	height: 80%;
+	background-color:rgba(225,235,220,0.5);
+    left:25%;
+	top: 14%
+}
+form h1
+{
+	color: white;
+	margin: 1%;
+	padding: 2%;
+	font-family: monospace;
+	font-size: 40px;
+	
+}
+.fname{
+	position: relative;
+	right:100;
+}
+/*###########################################IMAGE GALLERY   #####################################################################*/
+#maingallery
+{
+    position: relative;
+    display:inline-block;
+    height:auto;
+    padding-top: 100px;
+}   
+.position{
+background-color: red;
+display: inline-block;
+position: relative;
+width: 300px;
+height: 300px;
+box-shadow: 10px;
+box-sizing: border-box;
+margin: 20px;
+  
+}
+.position imgl
+{
+background-color: aliceblue;
+width: 180;
+height: 180px
+}
+.position img h1 
+{
+font-size: 20px
+}
+
+.position img h2 
+{
+font-size: 10px
+}
+
+
+
+
+
+
+
+
+
+

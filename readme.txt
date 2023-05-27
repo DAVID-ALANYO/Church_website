@@ -1,0 +1,1 @@
+please with the make sure that you have internet access so that you can see the facebook and the youtube page viewing correct 
